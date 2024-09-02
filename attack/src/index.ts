@@ -3,7 +3,7 @@ import axios from "axios";
 async function sendRequest(otp: number) {
  
   try {
-    const responce = await axios.post('http://localhost:3000/reset-password', {
+     await axios.post('http://localhost:3000/reset-password', {
       email: "deepanshusaini2711@gmail.com",
       otp: otp.toString(),
       newPassword: "123123123"
