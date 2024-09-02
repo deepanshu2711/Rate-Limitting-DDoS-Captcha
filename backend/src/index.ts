@@ -1,3 +1,12 @@
+//rate limiting - limiting the number of requests a user can make to a server
+//can be done at application level or at loadbalancer level
+//can be done by using  user id or ip address
+
+
+//ddos attack - overwhelming a withflood of traffic and make it unavailable for real users . 
+// ddos protection mechanism are used to filter out malacious traffic by using captchas
+
+
 import express from "express"
 import {rateLimit} from "express-rate-limit"
 
